@@ -46,6 +46,8 @@ vcn_name = "oke vcn"
 
 # bastion
 
+bastion_display_name = "<bastion_display_name>"
+
 bastion_access = "ANYWHERE"
 
 bastion_enabled = true
@@ -71,6 +73,8 @@ bastion_shape = {
 }
 
 bastion_timezone = "Australia/Sydney"
+
+operator_display_name = "<operator_display_name>"
 
 operator_enabled = true
 

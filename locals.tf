@@ -50,6 +50,7 @@ locals {
     ssh_public_key_path   = var.ssh_public_key_path
     tags                  = var.tags["bastion"]
     timezone              = var.bastion_timezone
+    bastion_display_name  = var.bastion_display_name
   }
 
   oci_base_operator = {
@@ -70,6 +71,7 @@ locals {
     ssh_public_key_path       = var.ssh_public_key_path
     tags                      = var.tags["bastion"]
     timezone                  = var.operator_timezone
+    operator_display_name     = var.operator_display_name
   }
 
   oke_network_vcn = {

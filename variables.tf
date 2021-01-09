@@ -168,6 +168,12 @@ variable "bastion_timezone" {
   type        = string
 }
 
+variable "bastion_display_name" {
+  default     = "bastion01"
+  description = "The preferred display name for the bastion host."
+  type        = string
+}
+
 # operator
 
 variable "operator_enabled" {
@@ -233,6 +239,12 @@ variable "operator_shape" {
 variable "operator_timezone" {
   default     = "Australia/Sydney"
   description = "The preferred timezone for the operator host."
+  type        = string
+}
+
+variable "operator_display_name" {
+  default     = "operator01"
+  description = "The preferred display name for the operator host."
   type        = string
 }
 
