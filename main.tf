@@ -2,7 +2,7 @@
 # Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl
 
 module "base" {
-  source  = "mtorne/base/oci"
+  source  = "oracle-terraform-modules/base/oci"
   version = "2.0.0"
 
   # general oci parameters
